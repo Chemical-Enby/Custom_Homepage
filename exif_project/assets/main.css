@@ -1,0 +1,36 @@
+/* App-wide styling */
+body, html {
+    background-color: #11001D;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 2vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#img-wrapper {
+    max-height: 80vh;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-wrapper img{
+    display: block;
+    max-height: 50%;
+    max-width: 50%;
+    transform: scale(1.8);
+    border-radius: 4%;
+    border: .15vh solid rgb(177, 59, 255);
+}
